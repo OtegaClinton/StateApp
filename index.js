@@ -165,5 +165,3 @@ app.delete('/stateAndCapital/:id', async(req,res)=>{
 app.listen(port1,()=>{
     console.log(`Server is listening to PORT:${port1}`)
 }); 
-
-app.use('/')
