@@ -159,10 +159,11 @@ app.delete('/stateAndCapital/:id', async(req,res)=>{
         res.status(500).json({
             message:error.message
         })
-        
+         
     }
 })
-
 app.listen(port1,()=>{
     console.log(`Server is listening to PORT:${port1}`)
-});
+}); 
+
+app.use('/')
